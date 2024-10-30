@@ -1,0 +1,449 @@
+[
+  {
+    "name": ".git/",
+    "isDir": true,
+    "children": [
+      {
+        "name": "COMMIT_EDITMSG",
+        "size": 38,
+        "dateModified": "2024-10-30T05:20:45.726Z",
+        "isDir": false
+      },
+      {
+        "name": "FETCH_HEAD",
+        "size": 109,
+        "dateModified": "2024-10-30T05:20:55.595Z",
+        "isDir": false
+      },
+      {
+        "name": "HEAD",
+        "size": 23,
+        "dateModified": "2024-10-30T05:17:36.671Z",
+        "isDir": false
+      },
+      {
+        "name": "ORIG_HEAD",
+        "size": 41,
+        "dateModified": "2024-10-30T05:20:29.619Z",
+        "isDir": false
+      },
+      {
+        "name": "config",
+        "size": 371,
+        "dateModified": "2024-10-30T05:22:18.835Z",
+        "isDir": false
+      },
+      {
+        "name": "description",
+        "size": 73,
+        "dateModified": "2024-10-30T05:17:36.657Z",
+        "isDir": false
+      },
+      {
+        "name": "hooks/",
+        "isDir": true,
+        "children": [
+          {
+            "name": "applypatch-msg.sample",
+            "size": 478,
+            "dateModified": "2024-10-30T05:17:36.660Z",
+            "isDir": false
+          },
+          {
+            "name": "commit-msg.sample",
+            "size": 896,
+            "dateModified": "2024-10-30T05:17:36.658Z",
+            "isDir": false
+          },
+          {
+            "name": "fsmonitor-watchman.sample",
+            "size": 4726,
+            "dateModified": "2024-10-30T05:17:36.661Z",
+            "isDir": false
+          },
+          {
+            "name": "post-update.sample",
+            "size": 189,
+            "dateModified": "2024-10-30T05:17:36.663Z",
+            "isDir": false
+          },
+          {
+            "name": "pre-applypatch.sample",
+            "size": 424,
+            "dateModified": "2024-10-30T05:17:36.664Z",
+            "isDir": false
+          },
+          {
+            "name": "pre-commit.sample",
+            "size": 1649,
+            "dateModified": "2024-10-30T05:17:36.660Z",
+            "isDir": false
+          },
+          {
+            "name": "pre-merge-commit.sample",
+            "size": 416,
+            "dateModified": "2024-10-30T05:17:36.663Z",
+            "isDir": false
+          },
+          {
+            "name": "pre-push.sample",
+            "size": 1374,
+            "dateModified": "2024-10-30T05:17:36.664Z",
+            "isDir": false
+          },
+          {
+            "name": "pre-rebase.sample",
+            "size": 4898,
+            "dateModified": "2024-10-30T05:17:36.658Z",
+            "isDir": false
+          },
+          {
+            "name": "pre-receive.sample",
+            "size": 544,
+            "dateModified": "2024-10-30T05:17:36.662Z",
+            "isDir": false
+          },
+          {
+            "name": "prepare-commit-msg.sample",
+            "size": 1492,
+            "dateModified": "2024-10-30T05:17:36.662Z",
+            "isDir": false
+          },
+          {
+            "name": "push-to-checkout.sample",
+            "size": 2783,
+            "dateModified": "2024-10-30T05:17:36.665Z",
+            "isDir": false
+          },
+          {
+            "name": "sendemail-validate.sample",
+            "size": 2308,
+            "dateModified": "2024-10-30T05:17:36.659Z",
+            "isDir": false
+          },
+          {
+            "name": "update.sample",
+            "size": 3650,
+            "dateModified": "2024-10-30T05:17:36.665Z",
+            "isDir": false
+          }
+        ]
+      },
+      {
+        "name": "index",
+        "size": 555,
+        "dateModified": "2024-10-30T05:20:45.725Z",
+        "isDir": false
+      },
+      {
+        "name": "info/",
+        "isDir": true,
+        "children": [
+          {
+            "name": "exclude",
+            "size": 240,
+            "dateModified": "2024-10-30T05:17:36.656Z",
+            "isDir": false
+          }
+        ]
+      },
+      {
+        "name": "logs/",
+        "isDir": true,
+        "children": [
+          {
+            "name": "HEAD",
+            "size": 724,
+            "dateModified": "2024-10-30T05:20:45.728Z",
+            "isDir": false
+          },
+          {
+            "name": "refs/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "heads/",
+                "isDir": true,
+                "children": [
+                  {
+                    "name": "master",
+                    "size": 724,
+                    "dateModified": "2024-10-30T05:20:45.728Z",
+                    "isDir": false
+                  }
+                ]
+              },
+              {
+                "name": "remotes/",
+                "isDir": true,
+                "children": [
+                  {
+                    "name": "origin/",
+                    "isDir": true,
+                    "children": [
+                      {
+                        "name": "master",
+                        "size": 505,
+                        "dateModified": "2024-10-30T05:22:39.599Z",
+                        "isDir": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "objects/",
+        "isDir": true,
+        "children": [
+          {
+            "name": "1c/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "dadd156da4bb513b2d532ee9193442522ca502",
+                "size": 194,
+                "dateModified": "2024-10-30T05:20:45.727Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "40/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "8da68857d37cb2968d0330dea3c85791b360a5",
+                "size": 503,
+                "dateModified": "2024-10-30T05:18:31.243Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "4a/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "2825f6184d6f3d9647c38b412180355efa13a1",
+                "size": 967,
+                "dateModified": "2024-10-30T05:20:43.678Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "7e/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "50f73a9ad340fbbd9aacf353e33d1673902019",
+                "size": 53,
+                "dateModified": "2024-10-30T05:17:53.757Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "84/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "f470a94af53d46c4279cff5d55322304e8533f",
+                "size": 99,
+                "dateModified": "2024-10-30T05:18:37.279Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "ba/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "1cd76fcde9de2c3412681636e6662fce326e3a",
+                "size": 183,
+                "dateModified": "2024-10-30T05:20:43.679Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "ca/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "60eba15bad3804850e2cd7beb2cca337cab445",
+                "size": 394,
+                "dateModified": "2024-10-30T05:20:43.677Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "d1/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "f282e286d211c662096a6e5329fe0ec6aeb72a",
+                "size": 792,
+                "dateModified": "2024-10-30T05:17:53.756Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "e0/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "856fcd19b0d3ebffe45a0691528d33304e6fa5",
+                "size": 67,
+                "dateModified": "2024-10-30T05:20:45.723Z",
+                "isDir": false
+              },
+              {
+                "name": "8de00610f8d8c73ec0257a35f7c92e6aae96e5",
+                "size": 51,
+                "dateModified": "2024-10-30T05:20:45.723Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "e3/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "331f0de74452c11e4d1622001262c1a3300d0b",
+                "size": 37,
+                "dateModified": "2024-10-30T05:17:53.758Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "eb/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "cc12d88d77e7e3c583f339d348f99784ba3a32",
+                "size": 196,
+                "dateModified": "2024-10-30T05:20:45.724Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "fc/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "26dddf6124b28e9368f22569466c4ba0f24648",
+                "size": 186,
+                "dateModified": "2024-10-30T05:18:37.282Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "info/",
+            "isDir": true,
+            "children": []
+          },
+          {
+            "name": "pack/",
+            "isDir": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "refs/",
+        "isDir": true,
+        "children": [
+          {
+            "name": "heads/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "master",
+                "size": 41,
+                "dateModified": "2024-10-30T05:20:45.728Z",
+                "isDir": false
+              }
+            ]
+          },
+          {
+            "name": "remotes/",
+            "isDir": true,
+            "children": [
+              {
+                "name": "origin/",
+                "isDir": true,
+                "children": [
+                  {
+                    "name": "master",
+                    "size": 41,
+                    "dateModified": "2024-10-30T05:22:39.598Z",
+                    "isDir": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tags/",
+            "isDir": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ".github/",
+    "isDir": true,
+    "children": [
+      {
+        "name": "workflows/",
+        "isDir": true,
+        "children": [
+          {
+            "name": "generate-directory.yml",
+            "size": 815,
+            "dateModified": "2024-10-30T05:19:59.193Z",
+            "isDir": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "README.html",
+    "size": 2358,
+    "dateModified": "2024-10-30T04:50:06.794Z",
+    "isDir": false
+  },
+  {
+    "name": "README.md",
+    "size": 21,
+    "dateModified": "2024-10-30T05:03:12.687Z",
+    "isDir": false
+  },
+  {
+    "name": "generate-directory.js",
+    "size": 1083,
+    "dateModified": "2024-10-30T04:43:04.617Z",
+    "isDir": false
+  },
+  {
+    "name": "package.json",
+    "size": 246,
+    "dateModified": "2024-10-30T04:43:19.330Z",
+    "isDir": false
+  }
+]
