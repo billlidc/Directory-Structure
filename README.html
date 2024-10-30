@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo Directory</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        a {
+            text-decoration: none;
+        }
+        a.icon.dir::before {
+            content: "📁 ";
+        }
+        a.icon.file::before {
+            content: "📄 ";
+        }
+    </style>
+</head>
+<body>
+
+<h1>Index of My GitHub Repo</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Date Modified</th>
+        </tr>
+    </thead>
+    <tbody id="directory-list"></tbody>
+</table>
+
+<script>
+// Fetch the directory structure from the generated JSON
+fetch('directory-structure.json')
+    .then(response => response.json())
+    .then(data => {
+        populateTable(data);
+    });
+
+// Function to recursively populate the table
+function populateTable(data, parentElement = document.getElementById('directory-list')) {
+    data.forEach(entry => {
+        const row = document.createElement('tr');
+
+        // Create the name cell with link
+        const nameCell = document.createElement('td');
+        const link = document.createElement('a');
+        link.href = entry.isDir ? entry.name : entry.name;
+        link.innerText = entry.name;
+        link.classList.add('icon', entry.isDir ? 'dir' : 'file');
+        nameCell.appendChild(link);
+        row.appendChild(nameCell);
+
+        // Create the size cell
+        const sizeCell = document.createElement('td');
+        sizeCell.textContent = entry.size ? `${(entry.size / 1024).toFixed(1)} KB` : '';
+        row.appendChild(sizeCell);
+
+        // Create the date modified cell
+        const dateCell = document.createElement('td');
+        dateCell.textContent = entry.dateModified || '';
+        row.appendChild(dateCell);
+
+        // Append the row to the table body
+        parentElement.appendChild(row);
+
+        // If it's a directory, recursively add its contents
+        if (entry.isDir && entry.children) {
+            populateTable(entry.children, parentElement);
+        }
+    });
+}
+</script>
+
+</body>
+</html>
